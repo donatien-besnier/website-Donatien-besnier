@@ -1,0 +1,98 @@
+/* Réinitialisation de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête principal */
+header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-container p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Section du profil */
+.profile-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: pink;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+/* Sections principales */
+.content {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: pink;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
